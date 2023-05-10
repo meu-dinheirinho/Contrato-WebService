@@ -70,7 +70,7 @@ PRIVATE_BASE = api/priv
 ### Authentication
 
 ```http
-  POST {PUBLIC_BASE}/api/login
+  POST {PUBLIC_BASE}/login
 ```
 create an authentication
 
@@ -107,7 +107,7 @@ create an authentication
 ### Register
 
 ```http
-  POST {PUBLIC_BASE}/api/register
+  POST {PUBLIC_BASE}/register
 ```
 create an new user
 
